@@ -1,11 +1,11 @@
 /**
  * @title http proxy
- * @description 可在任意位置删除某些代码,或者某些函数，触发codefuse代码被动补全，验证补全能力
- * 也可以直接使用option/alt + \ 触发主动补全
  * @author liufu.lf
+ * @todo 可在任意位置删除某些代码,或者某些函数，触发codefuse代码被动补全，验证补全能力
+ * 也可以直接使用option/alt + \ 触发主动补全
  */
 const http = require("http");
-const httpProxy = require("http-proxy");
+const httpProxy = require("src/main/node/http-proxy");
 
 // Create a proxy server instance
 const proxy = httpProxy.createProxyServer({});

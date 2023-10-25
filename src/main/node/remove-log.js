@@ -1,7 +1,8 @@
 /**
  * @title remove log
- * @description 选中某段函数，右键点击 解释代码/添加注释/生成单测/优化代码等按钮 尝试试用插件功能
+ * @description Remove console.log statements from your project
  * @author liufu.lf
+ * @todo 选中某段函数，右键点击 解释代码/添加注释/生成单测/优化代码等按钮 尝试试用插件功能
  */
 const fs = require("fs");
 const path = require("path");

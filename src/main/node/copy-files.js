@@ -1,8 +1,9 @@
 /**
  * @title copy files
- * @description 选中某段函数,右键点击 解释代码/添加注释/生成单测/优化代码等按钮 尝试试用插件功能
+ * @description Copy the files from the source directory to the target directory
  * @example node copy-files.js build dist
  * @author liufu.lf
+ * @todo 选中某段函数,右键点击 解释代码/添加注释/生成单测/优化代码等按钮 尝试试用插件功能
  */
 const fs = require("fs");
 const path = require("path");
@@ -17,7 +18,7 @@ const targetDir = path.resolve(__dirname, target);
  * @param {string} src
  * @param {string} dest
  * @param {function} callback
- * @description Copy the files from the src directory to the dest directory
+ * @description
  */
 const copyDirectory = (src, dest, callback) => {
   const copy = (copySrc, copyDest) => {
